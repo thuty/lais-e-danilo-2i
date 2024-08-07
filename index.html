@@ -8,7 +8,7 @@
 <body>
     <form action="" method="post">
 <p>Digite seu nome:</p>
-<input type="text" name="nome" placeholder="digite seu nome"> 
+<input type="text" name="nome" placeholder="digite seu nome" required> 
 <input type="email" name="email" placeholder="email" value="@escola.pr.gov.br">
 <input type="number" name="telefone" placeholder="telefone"> <br>
 <input type="radio" name="trabalho" value="sim"> Com certeza
@@ -20,9 +20,10 @@
 <option value="4">Morretes</option>
 </select>
 <br>
-<textarea name="avaliaçoes" id=""></textarea>
+<textarea name="avaliaçoes" id="" required></textarea>
 <input type="checkbox" name="novidades" id="" checked> Aceito receber novidades da loja
-
+<button type="submit">Enviar</button>
+<button type="reset">Apagar Formulário</button>
     </form>
 </body>
 </html>
